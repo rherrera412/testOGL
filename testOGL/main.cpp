@@ -14,8 +14,7 @@ void render(void){
     /*Initalize the buffer bit in black*/
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
-    /*Initialize the triangle with corresponding vertices
-     at 1,0,0 , 0,1,0, and 0,0,1.  */
+    /*Initialize the triangle with corresponding RGB */
     glBegin(GL_TRIANGLES);{
         glColor3f(1.0, 0.0, 0.0);
         glVertex2f(0, 0.5);
